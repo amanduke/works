@@ -1,3 +1,14 @@
+
+# My React Portfolio
+
+Follow this link to see my React App :)
+
+# Screenshots
+
+![](https://user-images.githubusercontent.com/65379991/107161404-8a240b80-696a-11eb-9d3b-12ac5ace5998.png)
+![](https://user-images.githubusercontent.com/65379991/107161405-8bedcf00-696a-11eb-9c47-4e0b9716f132.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
