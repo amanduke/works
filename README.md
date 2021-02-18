@@ -3,7 +3,7 @@
 
 Follow this link to see my React App :)
 
-https://pure-taiga-43779.herokuapp.com/
+https://alexismanduke.herokuapp.com/
 
 # Screenshots
 
