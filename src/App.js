@@ -37,7 +37,7 @@ function App() {
           return null;
           }}/>
           <Route path='/contactme' component={() => { 
-          window.location.href = 'https://www.linkedin.com/in/alexismanduke/detail/contact-info/'; 
+          window.location.href = 'https://www.linkedin.com/in/alexismanduke/'; 
           return null;
           }}/>
           <Route path='/resume' component={() => { 
