@@ -5,7 +5,7 @@ import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Resume from './components/pages/Resume';
 import Products from './components/pages/Products';
-import SignUp from './components/pages/SignUp';
+
 
 function App() {
   return (
@@ -14,8 +14,8 @@ function App() {
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/products' component={Products} />
-          <Route path='/sign-up' component={SignUp} />
+          <Route path='/' component={Products} />
+          <Route path='/' component={Resume} />
           <Route path='/player-beyond' component={() => { 
           window.location.href = 'https://amanduke.github.io/playerbeyond/'; 
           return null;
@@ -45,7 +45,7 @@ function App() {
           return null;
           }}/>
           <Route path='/resume' component={() => { 
-          window.location.href = 'https://drive.google.com/file/d/1iDkgfjC5q8Q8t4VGbuEbV3Qz3ZZvGmAu/view?usp=sharing'; 
+          window.location.href = 'https://drive.google.com/file/d/1iDkgfjC5q8Q8t4VGbuEbV3Qz3ZZvGmAu/view'; 
           return null;
           }}/>
              
