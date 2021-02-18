@@ -10,7 +10,7 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Me</h2>
-            <Link to='/linkedin'>Learn More</Link>
+            <Link to='/'>Learn More</Link>
             <Link to='/'></Link>
             <Link to='/'></Link>
             <Link to='/'></Link>
@@ -18,7 +18,7 @@ function Footer() {
           </div>
           <div class='footer-link-items'>
             <h2>Contact</h2>
-            <Link to='/contactme'>Let's Connect</Link>
+            <Link to='/'>Let's Connect</Link>
             <Link to='/'></Link>
             <Link to='/'></Link>
             <Link to='/'></Link>
@@ -52,40 +52,8 @@ function Footer() {
           <small class='website-rights'>Alexis Manduke © 2020</small>
           <div class='social-icons'>
             <Link
-              class='social-icon-link facebook'
-              to='/'
-              target='_blank'
-              aria-label='Facebook'
-            >
-              <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
-              class='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i class='fab fa-instagram' />
-            </Link>
-            <Link
-              class='social-icon-link youtube'
-              to='/'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i class='fab fa-youtube' />
-            </Link>
-            <Link
               class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
-            >
-              <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/linkedin'
+              to='/contactme'
               target='_blank'
               aria-label='LinkedIn'
             >

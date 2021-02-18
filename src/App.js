@@ -3,8 +3,6 @@ import Navbar from './components/Navbar';
 import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Resume from './components/pages/Resume';
-import Products from './components/pages/Products';
 
 
 function App() {
@@ -14,8 +12,6 @@ function App() {
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/' component={Products} />
-          <Route path='/' component={Resume} />
           <Route path='/player-beyond' component={() => { 
           window.location.href = 'https://amanduke.github.io/playerbeyond/'; 
           return null;
@@ -48,11 +44,11 @@ function App() {
           window.location.href = 'https://drive.google.com/file/d/1iDkgfjC5q8Q8t4VGbuEbV3Qz3ZZvGmAu/view'; 
           return null;
           }}/>
-             
         </Switch>
       </Router>
     </>
   );
 }
+
 
 export default App;
