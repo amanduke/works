@@ -10,7 +10,7 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Me</h2>
-            <Link to='/sign-up'>Learn More</Link>
+            <Link to='/linkedin'>Learn More</Link>
             <Link to='/'></Link>
             <Link to='/'></Link>
             <Link to='/'></Link>
@@ -18,7 +18,7 @@ function Footer() {
           </div>
           <div class='footer-link-items'>
             <h2>Contact</h2>
-            <Link to='/'>Let's Connect</Link>
+            <Link to='/contactme'>Let's Connect</Link>
             <Link to='/'></Link>
             <Link to='/'></Link>
             <Link to='/'></Link>
@@ -34,8 +34,8 @@ function Footer() {
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>LinkedIn</Link>
-            <Link to='/'>GitHub</Link>
+            <Link to='/linkedin'>LinkedIn</Link>
+            <Link to='/github'>GitHub</Link>
             <Link to='/'></Link>
             <Link to='/'></Link>
           </div>
@@ -85,7 +85,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link twitter'
-              to='/'
+              to='/linkedin'
               target='_blank'
               aria-label='LinkedIn'
             >

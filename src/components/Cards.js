@@ -13,13 +13,13 @@ function Cards() {
               src='images/img-9.jpg'
               text='Landing-page for an app developed for new gamers'
               label='PlayerBeyond'
-              path='/services'
+              path='/player-beyond'
             />
             <CardItem
               src='images/img-2.jpg'
               text='Yoga teaching website designed using Wordpress'
               label='Alexis Teaches Yoga'
-              path='/services'
+              path='/alexis-teaches-yoga'
             />
           </ul>
           <ul className='cards__items'>
@@ -27,19 +27,19 @@ function Cards() {
               src='images/img-3.jpg'
               text='Track your spending habits with this budget tracker app'
               label='Budget Tracker'
-              path='/services'
+              path='/budget-tracker'
             />
             <CardItem
               src='images/img-4.jpg'
               text='An art search app developed using React, Apollo, and GraphQL'
               label='Artspo'
-              path='/products'
+              path='/'
             />
             <CardItem
               src='images/img-8.jpg'
               text='Timed coding quiz made with CSS, JavaScript, and HTML'
               label='JavaScript Quiz'
-              path='/products'
+              path='/javascript-quiz'
             />
           </ul>
         </div>
